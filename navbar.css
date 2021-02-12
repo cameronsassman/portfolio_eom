@@ -1,0 +1,89 @@
+.topnav {
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-end;
+  width: 90%;
+  position: fixed;
+  z-index: 999;
+}
+
+.topnav .stickey {
+  padding: 15px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: white;
+}
+
+.topnav li,
+.topnav ul {
+  display: flex;
+}
+
+.topnav button {
+  display: none;
+  background-color: transparent;
+  font-size: 20px;
+  border-color: transparent;
+  position: relative;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 320px) {
+  .topnav {
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-end;
+    width: 66%;
+    position: fixed;
+    z-index: 999;
+  }
+  .topnav ul {
+    display: none;
+  }
+
+  .topnav button {
+    display: block;
+  }
+}
+
+/* @media only screen and (max-width: 768px) and (min-width: 320px) {
+  .menu-btn {
+  display: block;
+  z-index: 999;
+  }
+  .menu-btn i.active::before {
+  content: "\f00d";
+  }
+  .topnav .menu {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  left: -100%;
+  top: 0;
+  text-align: center;
+  padding-top: 80px;
+  transition: all 0.3s ease;
+  background: black;
+  }
+  
+  .topnav .menu.active {
+  left: 0;
+  }
+  .topnav .menu li {
+  display: block;
+  }
+  .topnav .menu li a {
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 25px;
+  } */
