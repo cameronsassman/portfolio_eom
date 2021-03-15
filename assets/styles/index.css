@@ -1,0 +1,61 @@
+body {
+  font-size: 16px;
+  font-family: "Lucidatypewriter, monospace";
+  color: white;
+  background-color: #001e20;
+  margin: 0;
+  padding: 0;
+}
+
+.hr1 hr {
+  /* The horizontal ruler */
+  background-color: #001e20;
+  border: medium none;
+  height: 1px;
+  margin: 30px auto;
+  width: auto;
+  border-top: 1px dashed rgb(255, 255, 255);
+  margin-left: 47%;
+  margin-top: 50px;
+}
+
+.hr2 hr {
+  /* The horizontal ruler */
+  background-color: #001e20;
+  border: medium none;
+  height: 1px;
+  margin: 30px auto;
+  width: auto;
+  border-top: 1px dashed rgb(255, 255, 255);
+  margin-right: 47%;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #237fa3;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    margin-left: 56px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #237fa3;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 25%;
+  }
+
+  .hr1 hr {
+    display: none;
+  }
+  .hr2 hr {
+    /* The horizontal ruler */
+    display: none;
+  }
+}

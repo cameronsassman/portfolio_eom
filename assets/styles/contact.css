@@ -1,0 +1,135 @@
+.wrapper-contact {
+  top: 50%;
+  left: 30%;
+  width: 100%;
+  max-width: 690px;
+  background: #016269;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  margin-left: 25%;
+}
+
+.wrapper-contact .icon ul {
+  color: #00b3c0;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.wrapper-contact .title h1 {
+  color: #00b3c0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.wrapper-contact .title p {
+  color: #00b3c0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  display: flex;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #000000;
+  width: 100%;
+}
+
+.msg textarea {
+  height: 190px;
+  outline: none;
+}
+
+.btn {
+  background: rgb(27, 194, 206);
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.wrapper-contact a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+.wrapper-contact a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+.wrapper-contact a:hover {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+.wrapper-contact a:active {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper-contact {
+    top: 50%;
+    left: 30%;
+    width: 100%;
+    max-width: 690px;
+    background: #016269;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    margin-left: 7%;
+    padding: 30px;
+  }
+  .wrapper-contact .icon ul {
+    color: #00b3c0;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+
+  .wrapper-contact .icon i {
+    padding-bottom: 15px;
+  }
+
+  .wrapper-contact .title h1 {
+    color: #00b3c0;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+  .contact-form {
+    display: block;
+  }
+  .input-fields,
+  .msg {
+    width: 93%;
+  }
+  .btn {
+    width: 320px;
+  }
+}

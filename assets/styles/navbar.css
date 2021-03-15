@@ -1,0 +1,67 @@
+.topnav {
+  display: flex;
+  background-color: transparent;
+  justify-content: flex-end;
+  width: 90%;
+  position: fixed;
+  z-index: 999;
+}
+
+.topnav .stickey {
+  padding: 15px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: white;
+}
+
+.topnav li,
+.topnav ul {
+  display: flex;
+}
+
+.topnav button {
+  display: none;
+  background-color: transparent;
+  font-size: 20px;
+  border-color: transparent;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav {
+    display: flex;
+    background-color: transparent;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 212px;
+    color: white;
+    z-index: 999;
+  }
+  .topnav ul {
+    display: flex;
+    background-color: #001e20;
+  }
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .topnav li {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
