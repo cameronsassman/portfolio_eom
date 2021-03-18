@@ -7,6 +7,9 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .hr1 hr {
   /* The horizontal ruler */
   background-color: #001e20;
